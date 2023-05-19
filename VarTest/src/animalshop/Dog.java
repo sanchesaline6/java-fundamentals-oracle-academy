@@ -19,4 +19,36 @@ public class Dog {
         this.barkNoise = barkNoise;
         this.weight = weight;
     }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public String getBreed(){
+        return this.breed;
+    }
+
+    public String getBarkNoise(){
+        return this.barkNoise;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
+
+    public void bark(){
+        System.out.println(this.barkNoise);
+    }
 }
