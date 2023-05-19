@@ -51,4 +51,8 @@ public class Dog {
     public void bark(){
         System.out.println(this.barkNoise);
     }
+
+    public void bark(String noise){
+        System.out.println(noise);
+    }
 }
