@@ -7,13 +7,13 @@ public class Dog {
     private String barkNoise = "Woof";
     private double weight;
 
-    private Dog(String name, String breed, double weight){
+    public Dog(String name, String breed, double weight){
         this.name = name;
         this.breed = breed;
         this.weight = weight;
     }
 
-    private Dog(String name, String breed, String barkNoise, double weight){
+    public Dog(String name, String breed, String barkNoise, double weight){
         this.name = name;
         this.breed = breed;
         this.barkNoise = barkNoise;

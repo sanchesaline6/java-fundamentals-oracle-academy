@@ -1,0 +1,31 @@
+package animalshop;
+
+import java.util.Scanner;
+
+public class AnimalTester {
+    public static void main(String[] args) {
+        Dog dog1 = new Dog("Ace", "Beagle", 45.6);
+        Dog dog2 = new Dog("Bailey", "Boerboel", "arf-arf", 80.2);
+
+        System.out.println("Dog1 Information");
+        System.out.println("Dog1 name: " + dog1.getName());
+        System.out.println("Dog1 breed: " + dog1.getBreed());
+        System.out.println("Dog1 Bark noise: ");
+        dog1.bark();
+        System.out.println("Dog1 weight: " + dog1.getWeight());
+        dog1.getName().intern();
+
+
+        System.out.println();
+
+        System.out.println("Dog2 Information");
+        System.out.println("Dog2 name: " + dog2.getName());
+        System.out.println("Dog2 breed: " + dog2.getBreed());
+        System.out.println("Dog2 Bark noise: ");
+        dog2.bark();
+        System.out.println("Dog2 weight: " + dog2.getWeight());
+
+    }
+}
+
+
